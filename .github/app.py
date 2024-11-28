@@ -12,7 +12,7 @@ st.title("GeoJSON Viewer")
 st.write("This is a simple app to visualize GeoJSON files.")
 
 # Load GeoJSON file
-geojson_path = "Clipped_LCZ_to_GeoJSON (1).geojson"
+geojson_path = "lcz.geojson"
  # Update with the path to your GeoJSON file
 try:
     gdf = gpd.read_file(geojson_path)
